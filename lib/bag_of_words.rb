@@ -6,7 +6,7 @@ class BagOfWords
   end
 
   def put(*words)
-    # TODO
+    @words += words
   end
 
 end
